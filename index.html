@@ -5,6 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>JavaScript To-Do List</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Belleza&display=swap"
+            rel="stylesheet" />
         <script src="script.js" defer></script>
     </head>
     <body>
@@ -16,6 +21,7 @@
                     class="input-field"
                     id="todoInput"
                     placeholder="Add a new todo" />
+                <button class="btn">Add</button>
             </div>
             <ul class="scroll">
                 <li id="todoList"></li>
@@ -24,15 +30,19 @@
                 <hr class="counter" />
                 <div class="counter-container">
                     <p><span>0</span> items total</p>
-                    <button id="deleteButton">Delete All</button>
+                    <button id="deleteButton" class="deletebtn">
+                        Delete All
+                    </button>
                 </div>
             </div>
-            <button class="btn">Add</button>
         </section>
         <footer>
             <div class="footer">
                 <p class="made-by">Made By</p>
                 <p class="author">Marcell Papp</p>
+                <p class="copyright">
+                    Copyright &#169; 2024. All Rights Reserved
+                </p>
             </div>
         </footer>
     </body>
