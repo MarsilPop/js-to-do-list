@@ -199,6 +199,14 @@ input[type="checkbox"]:checked::before {
     font-size: 0.9rem;
 }
 
+.made-by,
+.author,
+.copyright {
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
 .author {
     font-weight: 600;
     font-size: 1.1rem;
@@ -220,12 +228,4 @@ input[type="checkbox"]:checked::before {
 
 .scroll::-webkit-scrollbar-track {
     display: none;
-}
-
-.made-by,
-.author,
-.copyright {
-    color: black;
-    font-style: italic;
-    text-align: center;
 }
